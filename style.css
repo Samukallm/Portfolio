@@ -1,0 +1,23 @@
+.sobre-gradient {
+    background: linear-gradient(-45deg, #740909, #0c0c72, #4c0668, #1a233a, #3a0b2d, #1a1a2d);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+h1, h2, h3, .lead {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
